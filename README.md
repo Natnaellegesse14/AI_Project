@@ -1,4 +1,5 @@
 # AI-Powered Accessible Learning Companion
+## Summary
 
 An AI-driven learning assistant that adapts to individual learning styles and helps students with disabilities (visual, auditory, or cognitive impairments) to access and engage with educational content more effectively. The solution integrates personalized learning pathways, accessibility tools, and real-time feedback.
 
