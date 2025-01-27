@@ -1,96 +1,87 @@
 # AI-Powered Accessible Learning Companion
 
-An AI-driven learning assistant that adapts to individual learning styles and helps students with disabilities (visual, auditory, or cognitive impairments) to access and engage with educational content more effectively. The solution integrates personalized learning pathways, accessibility tools, and real-time feedback.
-
----
+Final project for the Building AI course.
 
 ## Summary
-This project aims to build an accessible AI-powered learning companion designed to address the challenges faced by students with disabilities. By leveraging AI techniques such as Natural Language Processing (NLP), Machine Learning, and Computer Vision, this solution provides personalized and adaptive learning experiences. The goal is to create an inclusive educational environment that empowers learners and bridges the gap in accessible education.
 
----
-
-## Table of Contents
-- [Background](#background)
-- [Data and AI Techniques](#data-and-ai-techniques)
-- [How It Is Used](#how-it-is-used)
-- [Challenges](#challenges)
-- [What Next](#what-next)
-- [Acknowledgments](#acknowledgments)
-
----
+An AI-driven learning assistant that personalizes educational content for students with disabilities, helping them overcome barriers to learning. The solution focuses on accessibility, adaptive pathways, and real-time feedback to promote inclusive education.
 
 ## Background
 
-### Problem to Solve
-Many students with disabilities face barriers to learning, including inaccessible materials, lack of adaptive teaching methods, and insufficient support. Despite advancements in technology, personalized and accessible learning remains a challenge in many schools and communities.
+Many students with disabilities face challenges such as inaccessible materials, a lack of adaptive teaching methods, and insufficient support. Globally, over 240 million children live with disabilities, according to UNESCO. This project aims to provide them with equal access to education.
 
-### Prevalence
-Globally, over 240 million children live with disabilities, according to UNESCO. Access to inclusive education is a fundamental right but remains under-fulfilled, especially in under-resourced areas.
+This is how these problems manifest:
+* Limited access to tailored learning materials.
+* Inadequate accessibility tools for diverse disabilities.
+* Barriers to inclusive education, especially in under-resourced areas.
 
-### Personal Motivation
-As technology advances, it should bridge gaps, not widen them. Ensuring equal opportunities for all learners is a cause I deeply care about, as education is a cornerstone of progress and empowerment.
+**Personal Motivation:** Bridging the gap in education accessibility is critical to empowering learners with disabilities and ensuring they can achieve their full potential.
 
-### Importance
-This topic is crucial to creating equitable learning environments where every student can reach their potential. Moreover, it aligns with global goals for inclusive education, such as the UN’s Sustainable Development Goal 4 (Quality Education).
+## How is it used?
 
----
+The AI-powered learning assistant can be deployed as:
+1. A mobile app for self-paced learning at home.
+2. A browser extension for online educational platforms.
+3. A desktop application for school settings.
 
-## Data and AI Techniques
+**Key Features:**
+* Text-to-speech and speech-to-text for visually impaired learners.
+* Real-time transcription and text simplification for cognitive disabilities.
+* Adaptive quizzes and learning paths based on user performance.
+
+**Target Users:**
+* Primary: Students with disabilities (visual, auditory, cognitive, etc.).
+* Secondary: Teachers and parents monitoring and supporting progress.
+
+Here’s an example of how the app might work:
+1. A visually impaired student uploads a textbook PDF.
+2. The AI converts it to an audio format, simplifying complex passages as needed.
+3. Real-time feedback guides the student’s progress.
+
+![Example](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+
+## Data sources and AI methods
 
 ### Data Sources
-1. Open-source educational datasets (e.g., OpenStax, CommonLit, or Khan Academy datasets).  
-2. Accessibility guidelines and data from organizations like W3C.  
-3. User interaction data collected ethically and with consent to improve personalization.
+* Open-source educational datasets like [OpenStax](https://openstax.org/) and [Khan Academy](https://www.khanacademy.org/).
+* Accessibility guidelines from [W3C](https://www.w3.org/WAI/).
+* User feedback data collected with informed consent to improve personalization.
 
 ### AI Techniques
-- **Natural Language Processing (NLP):** Convert complex text into simpler language and support text-to-speech or speech-to-text functionalities.  
-- **Machine Learning Models:** Adaptive learning pathways based on user performance and preferences.  
-- **Computer Vision:** Image-to-text and real-time transcription for visually impaired users.  
-- **Reinforcement Learning:** Provide tailored feedback and guidance based on user progress.  
-- **Sentiment Analysis:** Gauge frustration or satisfaction during learning sessions and adjust the approach.
+* **Natural Language Processing (NLP):** Simplify complex text, enable text-to-speech, and support sentiment analysis.
+* **Computer Vision:** Convert images or scanned documents into accessible text.
+* **Reinforcement Learning:** Adapt learning paths based on user interaction.
+* **Machine Learning Models:** Provide personalized recommendations and real-time progress feedback.
 
----
-
-## How It Is Used
-
-### Context of Use
-The solution can be deployed in schools, online learning platforms, and even in homes for self-paced learning. It can work as a browser extension, mobile app, or desktop application.
-
-### Audience
-- **Primary Users:** Students with disabilities or diverse learning needs.  
-- **Secondary Users:** Teachers and parents who want to monitor and support progress.  
-
-### Impact
-By providing accessible and adaptive tools, the project empowers learners who often face exclusion, increasing confidence and educational outcomes.
-
----
+| Technique         | Purpose                                |
+| ----------------- | -------------------------------------- |
+| NLP               | Simplify text, enable accessibility   |
+| Computer Vision   | Image-to-text transcription           |
+| Reinforcement Learning | Tailored learning pathways      |
 
 ## Challenges
 
-1. **Data Quality:** Finding or generating datasets representative of diverse learners can be difficult.  
-2. **User Adoption:** Ensuring ease of use across various levels of digital literacy.  
-3. **Technical Limitations:** AI models might misinterpret user needs or fail to generalize across different disabilities.  
-4. **Cost and Accessibility:** Ensuring affordability and compatibility with low-resource devices.  
-5. **Ethical Concerns:** Safeguarding user data privacy and avoiding biases in adaptive recommendations.
+What the project does _not_ solve:
+* Addressing all disabilities effectively due to diverse needs.
+* High cost of developing advanced accessibility features.
+* Ensuring data privacy while collecting user feedback.
 
----
+**Ethical Considerations:**
+* Preventing AI bias in recommendations.
+* Safeguarding user data and respecting privacy.
 
-## What Next
+## What next?
 
-1. **Expansion:** Incorporate more languages and cultural contexts to serve global communities.  
-2. **Partnerships:** Collaborate with educational institutions, NGOs, and governments to scale impact.  
-3. **Feedback Loop:** Continuously improve the AI by incorporating user feedback and additional training data.  
-4. **Certification:** Work toward official endorsements for accessibility and inclusivity standards.
+To grow, the project could:
+1. Expand to multiple languages and cultural contexts.
+2. Partner with governments, NGOs, and schools for broader reach.
+3. Enhance AI models with more training data and user feedback.
 
----
+**Skills Needed:** Expertise in accessibility tools, partnerships for data collection, and funding to scale development.
 
 ## Acknowledgments
 
-1. **Open Source Tools:** Libraries like TensorFlow, PyTorch, and Hugging Face for AI model development.  
-2. **Inspiration:** Projects like Microsoft’s Seeing AI and Google’s Accessibility Suite.  
-3. **Contributors:** W3C’s accessibility guidelines and UNESCO’s data on inclusive education.  
-4. **Educators and Advocates:** Feedback from teachers and organizations working with students with disabilities.
+* Inspired by projects like Microsoft’s Seeing AI and Google’s Accessibility Suite.
+* Accessibility standards from [W3C](https://www.w3.org/WAI/).
+* Open-source tools like TensorFlow and PyTorch.
 
----
-
-Feel free to contribute ideas, feedback, or code to help bring this project to life!
