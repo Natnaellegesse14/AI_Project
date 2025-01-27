@@ -1,7 +1,11 @@
 # AI-Powered Accessible Learning Companion
-## Summary
 
 An AI-driven learning assistant that adapts to individual learning styles and helps students with disabilities (visual, auditory, or cognitive impairments) to access and engage with educational content more effectively. The solution integrates personalized learning pathways, accessibility tools, and real-time feedback.
+
+---
+
+## Summary
+This project aims to build an accessible AI-powered learning companion designed to address the challenges faced by students with disabilities. By leveraging AI techniques such as Natural Language Processing (NLP), Machine Learning, and Computer Vision, this solution provides personalized and adaptive learning experiences. The goal is to create an inclusive educational environment that empowers learners and bridges the gap in accessible education.
 
 ---
 
@@ -82,7 +86,10 @@ By providing accessible and adaptive tools, the project empowers learners who of
 
 ## Acknowledgments
 
-1. **Build AI** 
+1. **Open Source Tools:** Libraries like TensorFlow, PyTorch, and Hugging Face for AI model development.  
+2. **Inspiration:** Projects like Microsoft’s Seeing AI and Google’s Accessibility Suite.  
+3. **Contributors:** W3C’s accessibility guidelines and UNESCO’s data on inclusive education.  
+4. **Educators and Advocates:** Feedback from teachers and organizations working with students with disabilities.
 
 ---
 
